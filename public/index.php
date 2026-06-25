@@ -6,7 +6,8 @@ $amparo->saludar();
 
 require_once "../clases/animal.php";
 
-$animal= new animal();
-$animal->perro();
+$animal= new perro();
+$animal->ladrar();
+$animal->correr();
 
 ?>
